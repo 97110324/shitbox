@@ -1,0 +1,2 @@
+Te raden getal: 99
+Aantal pogingen: 7
