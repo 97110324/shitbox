@@ -4,17 +4,20 @@
 
 
 def kubus_vol(m):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    return m ** 3
+
 
 def bol_vol(r):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    return (4/3) * math.pi * (r ** 3)
+
+import math
 
 zijde = 5
 radius = 4
 
-print(kubus_vol(5))
-print(bol_vol(4))
+if __name__ == "__main__":
+    volume_kubus = kubus_vol(5)
+    print(f"De inhoud van deze kubus is: {volume_kubus}")
+
+    volume_bol = bol_vol(4)
+    print(f"De inhoud van deze bol is: {volume_bol}")
