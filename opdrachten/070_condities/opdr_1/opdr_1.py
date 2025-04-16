@@ -8,5 +8,12 @@
 
 my_list = []
 
+for i in range(1, 11):  # range(1, 11) genereert getallen van 1 tot en met 10
+    if i > 4:  # Voeg alleen getallen groter dan 4 toe aan de lijst
+        my_list.append(i)
+
+# Print de resulterende lijst
+print(my_list)
+
 #for loop
 #if statement
